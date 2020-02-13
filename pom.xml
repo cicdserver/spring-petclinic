@@ -4,11 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
-  <artifactId>container</artifactId>
+  <artifactId>spring-petclinic</artifactId>
   <version>2.2.0.BUILD-SNAPSHOT</version>
-  <properties>
-    ​<sonar.organization>default</sonar.organization>
-  </properties>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
