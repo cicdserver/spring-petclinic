@@ -144,6 +144,9 @@
             </goals>
           </execution>
         </executions>
+          <properties>
+                <sonar.organization>pocdemo</sonar.organization>
+          </properties>
       </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
