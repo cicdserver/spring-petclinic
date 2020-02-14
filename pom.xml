@@ -11,7 +11,6 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.2.4.RELEASE</version>
   </parent>
-  <sonar.organization>pocdemo</sonar.organization>
   <name>petclinic</name>
 
   <properties>
@@ -29,7 +28,7 @@
 
     <jacoco.version>0.8.5</jacoco.version>
     <spring-format.version>0.0.19</spring-format.version>
-    <!-- <sonar.organization>pocdemo</sonar.organization> -->
+    <sonar.organization>pocdemo</sonar.organization>
 
   </properties>
 
