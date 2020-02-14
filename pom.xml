@@ -145,7 +145,7 @@
           </execution>
         </executions>
           <properties>
-                <sonar.organization>pocdemo</sonar.organization>
+                <sonar.organization>pardha-petclinic</sonar.organization>
           </properties>
       </plugin>
       <plugin>
