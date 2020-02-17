@@ -144,9 +144,6 @@
             </goals>
           </execution>
         </executions>
-          <properties>
-                <sonar.organization>pardha-petclinic</sonar.organization>
-          </properties>
       </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
