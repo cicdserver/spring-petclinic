@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
-  <artifactId>spring-petclinic</artifactId>
+  <artifactId>spring-pardha</artifactId>
   <version>2.2.0.BUILD-SNAPSHOT</version>
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -28,7 +28,7 @@
 
     <jacoco.version>0.8.5</jacoco.version>
     <spring-format.version>0.0.19</spring-format.version>
-    <sonar.organization>pocdemo</sonar.organization>
+    <sonar.organization>pardha-petclinic</sonar.organization>
 
   </properties>
 
@@ -246,7 +246,7 @@
       <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.4.0.905</version>
+            <version>3.6.0</version>
 			<executions>
 				<execution>
 					<phase>verify</phase>
