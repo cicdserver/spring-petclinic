@@ -28,7 +28,10 @@
 
     <jacoco.version>0.8.5</jacoco.version>
     <spring-format.version>0.0.19</spring-format.version>
-    <sonar.organization>pocdemo</sonar.organization>
+    <sonar.projectKey>cicdserver_spring-petclinic</sonar.projectKey>
+    <sonar.organization>cicdserver</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.login>d4e06b9f8262a54b1d421eef75e4328ee5a74be6</sonar.login>
 
   </properties>
 
@@ -144,9 +147,6 @@
             </goals>
           </execution>
         </executions>
-          <properties>
-                <sonar.organization>pardha-petclinic</sonar.organization>
-          </properties>
       </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
@@ -246,7 +246,7 @@
       <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.4.0.905</version>
+            <version>3.3.0.603</version>
 			<executions>
 				<execution>
 					<phase>verify</phase>
